@@ -19,20 +19,18 @@ google-sheets-discord-bot/
 ├── test_webhook.py # Test your Discord webhook
 └── README.md # Project documentation
 
-yaml
-Copy code
+
 
 ---
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/yourusername/google-sheets-discord-bot.git
 cd google-sheets-discord-bot
 2️⃣ Install dependencies
-bash
-Copy code
+
 pip install gspread oauth2client requests
 3️⃣ Set up Google API credentials
 Replace credentials.json with your own Google API service account credentials.
@@ -40,17 +38,14 @@ Replace credentials.json with your own Google API service account credentials.
 4️⃣ Set environment variable for Discord webhook
 On Linux/Mac:
 
-bash
-Copy code
+
 export DISCORD_WEBHOOK_URL="your-webhook-url"
 On Windows:
 
-cmd
-Copy code
+
 set DISCORD_WEBHOOK_URL=your-webhook-url
 5️⃣ Run the bot
-bash
-Copy code
+
 python sheets_to_discord.py
 🔒 Security Notes
 ✅ Never upload real credentials or webhook URLs to GitHub.
@@ -59,3 +54,6 @@ python sheets_to_discord.py
 
 👨‍💻 Author
 Developed by Somtochukwu O
+
+License
+This project is licensed for educational and portfolio purposes. Contact for commercial use.
